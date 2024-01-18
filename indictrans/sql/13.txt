@@ -1,0 +1,2 @@
+select Customers set city = "Mumbai"
+where city = "Delhi";

@@ -1,0 +1,4 @@
+select Customers.* from Customers join Order on Customers.ID = Order.Customer_ID
+group by Order.ID
+order by No_of_items desc
+limit 3;

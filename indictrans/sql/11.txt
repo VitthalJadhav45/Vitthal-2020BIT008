@@ -1,0 +1,1 @@
+select * from Customers join Order on Customers.ID = Order.Customer_ID;
